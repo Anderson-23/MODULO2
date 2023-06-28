@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box - model</title>
+
+    <style>
+
+        div{
+
+            border: 5px groove black;
+            width: 5em;
+            padding: 25px;
+            outline: 5px groove red;
+            background-color: aqua;
+            
+            margin: 100px auto;
+        }
+ 
+        div:hover{
+
+            background-color: chartreuse;
+            border: 5px groove red;
+            width: 5em;
+            padding: 25px;
+            outline: 5px groove black;
+        }
+
+        #pprimeiro{
+
+            color: red;
+            background-color: aqua;
+            width: 200px;
+            height: 25px;
+            padding: 25px;
+            text-align: center;
+            margin: auto;
+        }
+        #pprimeiro:active{
+
+            background-color: #ff0000;
+
+
+        }
+        #pprimeiro:hover{
+
+            background-image: linear-gradient(45deg, #0000ff, #2c2cfa, #ff0000);
+            color: white;
+            border: 2px solid black;
+            box-shadow: 5px 5px 5px black;
+
+        }
+
+        #botao1{
+            margin: auto;
+            height: 40px;
+            width: 200px;
+            background-color: #ff0000;
+            display: block;
+            
+        }
+        #botao1:active{
+           background-image: linear-gradient(45deg,blue,rgb(83, 83, 247),red);
+            content: 'so clicar';
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <input type="button" value="click aqui" id="botao1">
+    <h1>Separação de caixas</h1>
+    <div>ola mundo!</div>
+ 
+    <p id="pprimeiro">ola mundo</p>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body{
+background-color: aqua;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+    color: green;
+
+}
+
+h2{
+
+color: red;
+
+}
+h1#principal{
+
+text-align: center;
+background-color: green;
+color: white;
+
+}
+
+.container{
+
+text-align: center;
+background-color: green;
+color: white;
+
+
+}
+#secundario{
+
+text-align: center;
+text-decoration: underline;
+
+}
+.intermediario:hover{
+    background-color: red;
+    color: #dbdb76;
+}
+
+.intermediario{
+text-align: center;
+color: yellow;
+background-color: green;
+
+}
+
+.avancado{
+
+    text-align: center;
+    color: blue;
+    background-color: green;
+}
+div{
+    display: inline-flex;
+border: 1px solid black;
+height: 50px;
+width: 100px;
+}
+div > p{
+
+    display: none;
+}
+div:hover{
+    text-align: center;
+    height: 65px;
+    width: 300px;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.div2:hover > p{
+    display: block;
+}
+.div3:hover > p{
+    display: block;
+}
+.div1:hover{
+
+background-color: chartreuse;
+
+}
+.div2:hover{
+
+    background-color: darkgreen;
+
+}
+.div3:hover{
+
+    background-color: red;
+}
